@@ -1,0 +1,135 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        min-width: 100%;
+    }
+}
+@media screen and (max-width: 991px) {
+    .catalog {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container {
+        min-width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .catalog {
+        &__tabs {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
+
+        &__content {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .feed {
+        margin-left: auto;
+        &__descr {
+            font-size: 10px;
+            font-weight: 800;
+        }
+    }
+    .carousel {
+        display: none;
+    }
+    .container {
+        min-width: 100%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .catalog {
+        &__tabs {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
+        &__content {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .feed {
+        margin-left: auto;
+        &__descr {
+            font-size: 10px;
+            font-weight: 800;
+        }
+    }
+    .container {
+        min-width: 100%;
+    }
+    .advantages {
+        &__descr {
+            margin-top: 26px;
+            color: #0d0d0d;
+            font-size: 6px;
+            font-weight: 900;
+            text-align: center;
+        }
+        &__subtitle {
+            margin-top: 38px;
+            color: #0d0d0d;
+            font-size: 10px;
+            font-weight: 900;
+        }
+    }
+    .header {
+        &__logo {
+            width: 185px;
+        }
+        &__official {
+            display: none;
+            justify-content: space-between;
+        }
+    }
+    .promo {
+        &__icons {
+            width: 398px;
+        }
+    }
+}
+@media screen and (max-width: 462px) {
+    .feed {
+        margin-left: auto;
+        &__descr {
+            font-size: 10px;
+            font-weight: 800;
+        }
+    }
+    .advantages {
+        &__descr {
+            margin-top: 26px;
+            color: #0d0d0d;
+            font-size: 6px;
+            font-weight: 900;
+            text-align: center;
+        }
+        &__subtitle {
+            margin-top: 38px;
+            color: #0d0d0d;
+            font-size: 10px;
+            font-weight: 900;
+        }
+    }
+    .header {
+        &__logo {
+            width: 185px;
+            &__official{
+                display: none;
+            }
+        }
+        &__contacts {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
